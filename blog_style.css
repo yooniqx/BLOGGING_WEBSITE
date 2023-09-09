@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding:0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.top-bar{
+    background-color: rgb(0, 75, 145);
+    height: 90px;
+    display: flex;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    border-bottom: 2px black;
+    
+}
+.site-name{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+}
+nav{
+    margin-left: 540px;
+    display: flex;
+}
+.navg li{
+    display: inline-block;
+    margin-inline: 10px;
+    margin-top: 35px;
+    font-size: 17px;
+}
+.navg li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sign-in{
+    background-color: rgb(39, 35, 35);
+    color: white;
+    width: 100px;
+    height: 27px;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sign-in:hover{
+    transform: scale(1.1);
+}
+
+
+.area{
+    height: 500px;
+    width: 100%;
+    padding-left: 50px;
+    background-image: linear-gradient(rgb(3, 179, 248), rgb(13, 100, 172),rgb(0, 52, 87));
+}
+.pt{
+    display: inline-block;
+}
+.pt-img{
+    border: 2px grey;
+    height: 250px;
+    width: 400px;
+    margin-left: 100px;
+}
+.quote{
+    font-size: 70px;
+    color: black;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text{
+    font-size: 24px;
+    color: rgb(199, 195, 134);
+}
+.read-btn button{
+    background-image: linear-gradient(rgb(43, 36, 36),black);
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition:0.8s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.read-btn button:hover{
+    transform: scale(1.1);
+}
+
+
+.platform{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.plat-head{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.plat-in{
+    display: flex;
+    width: 1250px;
+    margin-bottom: 30px;
+}
+.trend{
+    display: inline-block;
+    box-shadow: 2px 2px 8px black;
+    padding: 10px;
+    height: 100px;
+    width: 50%;
+    margin-inline: 50px;
+}
+.st-head{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.st-body{
+    font-size: 17px;
+}
+
+
+.break{
+    width: 90%;
+    
+}
+
+
+.base{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.main-tile{
+    box-shadow: 2px 2px 8px black;
+    height: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 83%;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+.sub-tile{
+    display: inline-block;
+    margin-inline: 10px;
+}
+.tile-header{
+    font-weight: bold;
+    font-size: 22px;
+}
+.tile-content{
+    font-size: 18px;
+    color: rgb(85, 83, 83);
+}
+.tile-footer{
+    font-size: 14px;
+    color: rgb(85, 83, 83);
+}
+.tile-img{
+    width: 200px;
+    height: 150px;
+}
+.tile-link{
+    text-decoration: none;
+    color: black;
+}    
